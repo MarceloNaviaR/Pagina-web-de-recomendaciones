@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('36.jpg'); /* Ruta de tu imagen de fondo */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.body-pagina1 {
+    background-image: url('fondo_juego.jpeg'); /* Ruta de la imagen de fondo para la página 1 */
+    /* Otros estilos específicos para esta página si es necesario */
+}
+
+.body-pagina2 {
+    background-image: url('Alcores_sala.jpg'); /* Ruta de la imagen de fondo para la página 1 */
+    /* Otros estilos específicos para esta página si es necesario */
+}
+
+.body-pagina3 {
+    background-image: url('fondo_animacion.jpg'); /* Ruta de la imagen de fondo para la página 1 */
+    /* Otros estilos específicos para esta página si es necesario */
+}
+
+.body-pagina5 {
+    background-image: url('448134.jpg'); /* Ruta de la imagen de fondo para la página 1 */
+    /* Otros estilos específicos para esta página si es necesario */
+}
+
+
+h1 {
+    color: #fff;
+}
+
+p{
+    color: #fff;
+}
+
+.categorias {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.categoria {
+    background-color: rgba(50, 50, 50, 0.8);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.categoria a {
+    text-decoration: none;
+    color: #333;
+}
+
+.categoria img {
+    width: 100%; /* Ajustar todas las imágenes al 100% del ancho de su contenedor */
+    max-height: 200px; /* Establecer una altura máxima para evitar imágenes excesivamente grandes */
+    border-radius: 5px;
+    display: block;
+}
+
+.categoria p {
+    font-size: 18px;
+}
+
+.boton-explicacion {
+    margin: 40px 60px 20px; /* Margen arriba, abajo y al centro del botón */
+    padding: 20px 40px; /* Tamaño más grande para el botón */
+    background-color: #333; /* Color de fondo del botón */
+    color: #fff; /* Color de texto del botón */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px; /* Tamaño del texto del botón */
+    display: block;
+    margin: 0 auto; /* Centrar el botón horizontalmente */
+}
+
+.boton-explicacion:hover {
+    background-color: #555; /* Color de fondo del botón al pasar el ratón */
+}
+
+.imagen {
+    max-width: 200px; /* Ajusta el tamaño máximo de las imágenes */
+    height: auto;
+}
+
+.sello{
+    max-width: 100px; /* Ajusta el tamaño máximo de las imágenes */
+    height: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px;
+    background: linear-gradient(to bottom, #1e1d1d, #686666); /* Fondo con gradiente vertical */
+}
+
+th, td {
+    border: 1px solid #fff;
+    padding: 10px;
+    text-align: center;
+    background-color: transparent; /* Fondo transparente para celdas de datos */
+    color: #fff;
+    white-space: nowrap; /* Evitar el ajuste de texto automático */
+    overflow: hidden;
+    text-overflow: ellipsis; /* Mostrar "..." cuando el texto es demasiado largo */
+    max-width: 200px; /* Limitar el ancho máximo del texto */
+}
+
+th {
+    background-color: transparent; /* Fondo transparente para cabeceras */
+}
+
+td:hover {
+    white-space: normal; /* Mostrar el texto completo al pasar el ratón sobre la celda */
+    overflow: auto;
+    text-overflow: clip;
+    max-width: none;
+}
+
+.gif-container {
+    text-align: center; /* Centra el GIF horizontalmente */
+    margin-top: 20px;  /* Espacio superior para separar el botón del GIF */
+}
+
+.gif-container img {
+    max-width: 100%;    /* Ajusta el ancho máximo para que se ajuste al contenedor */
+    width: 420;        /* Hace que el ancho del GIF se ajuste automáticamente al tamaño original */
+    height: 280;       /* Hace que la altura del GIF se ajuste automáticamente al tamaño original */
+}
+
+
+
+
